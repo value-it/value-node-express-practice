@@ -14,6 +14,14 @@ app.get('/', async function (req, res, next) {
 })
 
 /**
+ * GET /test
+ */
+app.get('/test', async function (req, res, next) {
+    console.log('/test called')
+    res.send('/test called')
+})
+
+/**
  * GET /sleep5
  * ただ10秒待ってレスポンス
  */

@@ -32,3 +32,7 @@ bin/
 ### node ###
 node_modules
 
+### K6 ###
+/k6/grafana
+/k6/influxdb
+/k6/output
