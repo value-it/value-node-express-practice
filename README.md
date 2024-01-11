@@ -39,3 +39,17 @@ http://localhost:3000/connections/datasources/new
 ### グラフ追加
 
 TBD
+
+
+---
+# Appendix
+## コンテナイメージをdockerリポジトリにpushする
+
+```shell
+
+# コンテナイメージをビルド
+docker build -t value4u/value-node-express-practice:latest ./express
+
+docker login
+docker push value4u/value-node-express-practice:latest
+```

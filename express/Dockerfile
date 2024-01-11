@@ -8,5 +8,5 @@ RUN ln -s /usr/src/app/node_modules/.bin/pm2 /usr/bin/pm2
 RUN ln -s /usr/src/app/node_modules/.bin/pm2-runtime /usr/bin/pm2-runtime
 
 EXPOSE 8000
-CMD [ "pm2-runtime", "pm2.json" ]
-#CMD [ "node", "index.js" ]
+#CMD [ "pm2-runtime", "pm2.json" ]
+CMD [ "node", "index.js" ]
